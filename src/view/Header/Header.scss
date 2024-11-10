@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 100%;
+    border-bottom: #EAEAEA 2px solid;
+    width: 100%;
+    .headerLogo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logoImg {
+            width: 100%;
+            height: 6vh;
+        }
+        .headerLogoTitle {
+            margin: 0 0 0 15px;
+            .logoTitle {
+                margin: 0;
+                font-size: 2vw;
+            }
+            .logoSubtitle {
+                font-size: 1.5vw;
+                margin: 0;
+            }
+        }
+    }
+    .headerController {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        
+        .controllerItem {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 0 0 25px;
+            cursor: pointer;
+            &:hover {
+                font-weight: 600;
+            }
+            .controllerImg {
+                height: 20px;
+                width: 20px;
+                color: aqua;
+            }
+            .controllerName {
+                font-size: 16px;
+                padding-left: 5px;
+                color: #5C5C5C;
+            }
+        }
+    }
+}

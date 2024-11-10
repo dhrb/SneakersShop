@@ -1,0 +1,54 @@
+.appWrapper {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+
+    .headerWrapper {
+        margin-bottom: 20px;
+    }
+    .cartWrapper {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: red;
+    }
+
+    .bodyWrapper {
+        padding: 0 30px;
+        .bodyBanner {
+            background-color: green;
+            width: 100%;
+            height: 180px;
+        }
+
+        .itemsWrapper {
+            margin: 35px 0 0;
+            .itemsHeader {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .searchBox {
+                    border: 1px solid #F3F3F3;
+                    border-radius: 10px;
+                    height: 45px;
+                    width: 250px;
+                    display: flex;
+                    align-items: center;
+                    padding: 0 0 0 18px;
+                    .inputSearch {
+                        border: none;
+                        padding: 0 0 0 13px;
+                    }
+                }
+                .itemsSearchBox {
+                    border-color: #F3F3F3;
+                }
+            }
+            .sneakerItem {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}
